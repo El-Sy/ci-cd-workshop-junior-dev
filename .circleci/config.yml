@@ -25,4 +25,6 @@ workflows:
       - test:
           requires:
             - lint
-      - build-app
+      - build-app:
+          requires:
+            - test
