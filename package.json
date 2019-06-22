@@ -7,7 +7,7 @@
     "start": "nodemon src/index.js",
     "test": "jest .",
     "integration-test": "jest integration",
-    "lint": "./node_modules/.bin/eslint src/feature1.js"
+    "lint": "eslint src/feature1.js"
   },
   "author": "",
   "license": "ISC",
